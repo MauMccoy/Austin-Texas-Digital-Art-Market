@@ -14,4 +14,4 @@ This template is the first attempt of the general design of the website.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/MauMccoy/researchTemplate/issues)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/MauMccoy/Austin-Texas-Digital-Art-Market/issues)
