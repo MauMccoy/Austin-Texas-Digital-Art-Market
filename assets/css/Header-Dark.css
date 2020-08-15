@@ -1,12 +1,12 @@
 .header-dark {
   background: url(../../assets/img/market_bg.jpg) #444;
   background-size: cover;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
 }
 
 @media (min-width:768px) {
   .header-dark {
-    padding-bottom: 120px;
+    /*padding-bottom: 120px;*/
     opacity: .95;
   }
 }
@@ -32,7 +32,7 @@
 }
 
 .header-dark .navbar .navbar-brand:hover {
-  color: #f0f0f0;
+  color: #c9e8dd;
 }
 
 .header-dark .navbar .navbar-collapse span {
@@ -99,7 +99,7 @@
 }
 
 .header-dark .navbar .action-button, .header-dark .navbar .action-button:active {
-  background: #208f8f;
+  background: #00aacc;
   border-radius: 20px;
   font-size: inherit;
   color: #fff;
@@ -108,14 +108,15 @@
   text-shadow: none;
   padding: .5rem .8rem;
   transition: background-color 0.25s;
+  opacity: .9;
 }
 
 .header-dark .navbar .action-button:hover {
-  background: #269d9d;
+  background: #00aacc;
 }
 
 .header-dark .navbar .form-inline label {
-  color: #ccc;
+  color: #cccccc;
 }
 
 .header-dark .navbar .form-inline .search-field {
@@ -133,6 +134,7 @@
 
 .header-dark .navbar .form-inline .search-field:focus {
   border-bottom: 1px solid #ccc;
+  color: #ffffff;
 }
 
 .header-dark .hero {

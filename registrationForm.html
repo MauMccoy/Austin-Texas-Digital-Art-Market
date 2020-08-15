@@ -21,7 +21,7 @@
 <body>
     <div>
         <div class="header-dark" style="background-color: #000000;box-shadow: 0px 0px;text-shadow: 10px 10px 20px rgb(11,12,13), 5px 5px 20px rgb(0,0,0), 1px 1px 20px rgb(0,0,0), -10px -10px 20px rgb(0,0,0), -5px -5px 20px rgb(0,0,0), -1px -1px 20px rgb(0,0,0), 3px 3px 20px rgb(0,0,0), -3px -3px 20px rgb(0,0,0), 0px 0px;">
-            <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
+            <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search" style="background-color: #000000;">
                 <div class="container"><a class="navbar-brand" href="index.html">DAM</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse"
                         id="navcol-1">
@@ -32,52 +32,26 @@
                             </li>
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
-                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search" style="border-color: #60dd49;"></div>
                         </form><span class="navbar-text"><a class="login" href="signInForm.html">Log In</a></span><a class="btn btn-light action-button" role="button" href="registrationForm.html">Sign Up</a></div>
                 </div>
             </nav>
-            <div class="container hero">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h1 class="text-center">Austin Texas&nbsp;<br>Digital Art Market</h1>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <main class="page projects-page">
-        <section class="portfolio-block projects-with-sidebar">
-            <div class="container">
-                <div class="heading">
-                    <h2>Products</h2>
+    <div class="register-photo">
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form method="post">
+                <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
+                <div class="form-group">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <ul class="list-unstyled sidebar">
-                            <li><a class="active" href="#">Categories</a></li>
-                            <li><a href="paintCatalog.html">Paint</a></li>
-                            <li><a href="musicCatalog.html">Music</a></li>
-                            <li><a href="clothingCatalog.html">Clothing</a></li>
-                            <li><a href="designCatalog.html">Design</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/design/d9.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/paint/p2.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/music/m8.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/paint/p3.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/design/d8.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/paint/p5.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/paint/p6.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/design/d5.jpg"></a></div>
-                            <div class="col-md-6 col-lg-4 project-sidebar-card"><a href="#"><img class="img-fluid image scale-on-hover" src="assets/img/music/m1.jpg"></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(96,221,73);">Sign Up</button></div><a class="already" href="#">You already have an account? Login here.</a></form>
+        </div>
+    </div>
     <footer class="page-footer">
         <div class="container">
             <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
